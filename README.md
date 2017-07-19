@@ -77,7 +77,7 @@ RewardMob.instance.HideButton();
 ```
 
 
-## Testing the RewardMob SDK in RewardMob's Development Mode
+## Testing the RewardMob SDK in Development Mode
 We've recently implemented a completely new system for developers to test tournament functionality in a non-production environment. The steps to test your application is as follows:
 
 1. Download the latest version of the RewardMob app from Google Play on Android, or the App Store on iOS
