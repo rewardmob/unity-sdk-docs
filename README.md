@@ -11,7 +11,7 @@ and less about the immersion-breaking advertisements.
 
 3. Place a **RewardMobManager** prefab inside of any scene within your project
 
-4. Populate the **RewardMobData** resource object's game ID field with the ID provided to you inside the RewardMob Developer Panel
+4. Populate the **RewardMobData** resource object's game ID field with the ID provided to you inside the e-mail we sent you
 
 5. Place a **RewardMobCanvas** prefab inside of any scene where you wish to display the RewardMob Button. 
 Feel free to change it's position. **Please do not disable this GameObject, 
