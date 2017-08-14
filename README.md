@@ -37,7 +37,7 @@ android:screenOrientation="fullSensor">
   </intent-filter> 
 </activity> 
 ```
-2. Replace the ```<YOUR_GAME_ID_HERE>``` in the XML markup pasted in the previous step with the game ID weâ€™ve provided you (```ie. if ID is 12345 replace with rm12345```)
+2. Replace the ```<YOUR_GAME_ID_HERE>``` in the XML markup pasted in the previous step with the game ID we've provided you (```ie. if ID is 12345 replace with rm12345```)
 
 3. Modify your main activity's ```android:name``` from ```com.unity3d.player.UnityPlayerActivity``` to ```net.gree.unitywebview.CUnityPlayerActivity``` inside of your AndroidManifest.xml located in ```Resources/Plugins/Android```
  
