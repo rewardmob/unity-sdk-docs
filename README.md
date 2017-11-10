@@ -20,26 +20,7 @@ as it will disable itself.**
 **Follow the following steps as required.**
 
 ## Android Integration Steps (Optional)
-1. Paste the following XML as its own activity inside of your AndroidManifest.xml file located at: 
-
-**YOUR_PROJECT_PATH->Assets->Plugins->Android->AndroidManifest.xml** 
-``` 
-<activity 
-android:configChanges="mcc|mnc|locale|touchscreen|keyboard|keyboardHidden|
-navigation|orientation|screenLayout|uiMode|screenSize|smallestScreenSize|fontScale" 
-android:name="com.rewardmob.sdk.android.AuthPlugin" 
-android:screenOrientation="fullSensor">       
-  <intent-filter>         
-    <data android:scheme="rm<YOUR_GAME_ID_HERE>" />         
-    <action android:name="android.intent.action.VIEW" />         
-    <category android:name="android.intent.category.DEFAULT" />         
-    <category android:name="android.intent.category.BROWSABLE" />       
-  </intent-filter> 
-</activity> 
-```
-2. Replace the ```<YOUR_GAME_ID_HERE>``` in the XML markup pasted in the previous step with the game ID we've provided you (```ie. if ID is 12345 replace with rm12345```)
-
-3. Modify your main activity's ```android:name``` from ```com.unity3d.player.UnityPlayerActivity``` to ```net.gree.unitywebview.CUnityPlayerActivity``` inside of your AndroidManifest.xml located in ```Resources/Plugins/Android```
+1. (IF RUNNING UNITY 5.6.1) Modify your main activity's ```android:name``` from ```com.unity3d.player.UnityPlayerActivity``` to ```net.gree.unitywebview.CUnityPlayerActivity``` inside of your AndroidManifest.xml located in ```Resources/Plugins/Android```
  
  
 ## To Reference RewardMob SDK Calls
