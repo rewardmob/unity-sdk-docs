@@ -5,7 +5,7 @@ By removing advertisements from your game, and bringing them onto our platform, 
 and less about the immersion-breaking advertisements.
 
 ## RewardMob SDK Integration Steps (Required)
-1. Download zip/clone this repository
+1. Download the latest version of the RewardMob SDK from https://github.com/rewardmob/unity-sdk-docs/releases
 
 2. Import the plugin inside of an existing project
 
