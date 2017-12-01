@@ -31,7 +31,7 @@ using RewardMobSDK;
 
 
 ## Rewarding a User
-Locate a point in your game where you believe a user should be worthy of earning a reward, and call the function below.
+Locate a point in your game where you believe a user should be worthy of earning a reward, and call the function below. We typically suggest distributing a reward every 30 seconds of gameplay to retain user engagement with RewardMob. However, this can vary between experiences.
 ```C#
 RewardMob.instance.SendReward(string achievementDetails, int amountOfRewards);
 ```
